@@ -1,0 +1,93 @@
+/* Common styles */
+.aboutus-responsive-container-block {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.aboutus-text-blk {
+  margin: 0;
+  line-height: 25px;
+  color: #0E4D44;
+}
+
+.aboutus-team-head-text {
+  font-size: 48px;
+  font-weight: 900;
+  text-align: center;
+  color: #07695D;
+  line-height: 50px;
+  width: 100%;
+  margin: 50px 0;
+}
+
+.aboutus-container {
+  max-width: 1380px;
+  margin: 60px auto;
+  padding: 0 30px;
+}
+
+.aboutus-card {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 25px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.aboutus-card-container {
+  width: 280px;
+  margin: 10px;
+}
+
+.aboutus-name {
+  margin: 20px 0 5px;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.aboutus-position {
+  margin: 0 0 10px;
+  color: #008575;
+}
+
+.aboutus-feature-text {
+  margin: 0 0 20px;
+  color: rgb(122, 122, 122);
+  line-height: 30px;
+}
+
+.aboutus-social-icons {
+  width: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutus-team-image-wrapper {
+  clip-path: circle(50% at 50% 50%);
+  width: 130px;
+  height: 130px;
+}
+
+.aboutus-team-member-image {
+  max-width: 100%;
+}
+
+/* Media queries */
+@media (max-width: 1024px) {
+  .aboutus-responsive-container-block {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .aboutus-responsive-container-block {
+    grid-template-columns: 1fr;
+  }
+} 
